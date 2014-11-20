@@ -14,7 +14,7 @@ dont vous vous servez pour accéder à votre espace Be2bill mais bien le compte 
 
 Mot de passe : le mot de passe associé à ce compte.
 
-Url : url fourni par Be2bill pour accéder à leur service de type : secure-test.be2bill.com.
+Url : url fournie par Be2bill pour accéder à leur service de type : secure-test.be2bill.com.
 
 3DSecure : Si vous voulez activer le mode 3DSECURE lors des paiements.
 
@@ -30,7 +30,7 @@ N'oubliez pas d'aller configurer votre compte dans l'extranet Be2bill :
    http://votresite.fr/be2bill/callback/payment (notification de transactions)
    http://votresite.fr/be2bill/callback/unpaid (notification d'impayés)
 
-3)Renseigner les urls de redirections :
+3) Renseigner les urls de redirections :
     http://votresite.fr/be2bill/redirect/payment (Url après traitement)
     http://votresite.fr/be2bill/redirect/cancel (Url en cas d'annulation)
 
@@ -39,7 +39,7 @@ N'oubliez pas d'aller configurer votre compte dans l'extranet Be2bill :
 Be2bill plugin (EN)
 -------------------
 
-This plugin add Be2Bill payment method (http://www.be2bill.com)
+This plugin adds Be2Bill payment method (http://www.be2bill.com)
 
 Configuration
 -------------
@@ -62,10 +62,10 @@ Don't forget to configure your account in Be2Bill extranet :
 
 1) Allow the host to access the service by filling its IP address in the Be2bill configuration.
 
-2) Fill the notifications urls :
+2) Fill in the notifications urls :
    http://site.com/be2bill/callback/payment (notification of transactions)
    http://site.com/be2bill/callback/unpaid (unpaid notification)
 
-3) Fill the redirect urls :
+3) Fill in the redirect urls :
    http://site.com/be2bill/redirect/payment ( Url after treatment)
    http://site.com/be2bill/redirect/cancel ( Cancel url)
